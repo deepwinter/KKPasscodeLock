@@ -247,6 +247,9 @@
 #else
     [self dismissViewControllerAnimated:YES completion:nil];
 #endif
+    
+    [_delegate didCancelPasscode:self];
+
 }
 
 
